@@ -1,0 +1,5 @@
+To check all the libraries installed in a virtual environment, you can use one of the following methods:
+Run the command "python -m pip list" in the virtual environment.
+Run the command "pip freeze > requirements.txt" to generate a text file listing all your project dependencies.
+Use the command "lsvirtualenv -b" or "lsvirtualenv -l" if you are using virtualenvwrapper.
+Run the command "dir" in the virtual environment folder to list the virtual environments, and then run "pip freeze" to list the packages installed within a specific virtual environment.

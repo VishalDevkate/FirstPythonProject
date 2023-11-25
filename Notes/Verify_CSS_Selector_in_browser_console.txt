@@ -1,0 +1,24 @@
+Stop Responding
+To verify CSS selectors in the console, you can follow these steps:
+
+Open the page containing the HTML/DOM you would like to verify the selector on.
+Open the browser’s DevTools panel by pressing F12.
+Switch to the Console tab.
+Type in the CSS selector like $$(\"header\") to evaluate and validate.
+Check the results returned from console execution. If elements are matched, they will be returned in a list.
+Alternatively, you can use a browser extension like CSS Selector to generate CSS selectors for elements on a web page 1.
+
+If you want to validate your CSS code against W3C rules, you can use online tools like W3 CSS Validator 2, LambdaTest 3, or WTOOLS 4. These tools help validate your CSS syntax and identify any errors or inconsistencies in your code.
+
+CSS selector of button present in class = "some-class":
+div.some-class > button
+        
+To verify CSS selector in Console:
+        $$("div.row > button")
+        $$("div.row > button")[3]
+        $$("button#save_btn.btn")
+        $$("button#save_btn.btn")[1]
+__________________________________________________________________
+HW:
+https://stackoverflow.com/questions/68767268/selenium-common-exceptions-timeoutexception-message
+__________________________________________________________________

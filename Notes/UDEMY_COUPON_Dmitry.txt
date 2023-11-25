@@ -1,0 +1,3 @@
+CurrentMonth in CAPs followed by year
+
+e.g. JUNE2023, NOVEMBER2023

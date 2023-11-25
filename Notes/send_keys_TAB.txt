@@ -1,0 +1,7 @@
+from selenium.webdriver.common.keys import Keys
+
+# locate the input field
+input_field = driver.find_element_by_id('input_field_id')
+
+# hit the tab key
+input_field.send_keys(Keys.TAB)
